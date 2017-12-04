@@ -164,6 +164,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9DA74DB31FD5F54F007F0749 /* GLTFShaderModifierSurface_alphaModeBlend.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLTFShaderModifierSurface_alphaModeBlend.shader; sourceTree = "<group>"; };
 		DD071E031F55ED1200F00567 /* GLTFShaderModifierSurface.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLTFShaderModifierSurface.shader; sourceTree = "<group>"; };
 		DD1045991F47723D004B20CE /* GLTFTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFTypes.swift; sourceTree = "<group>"; };
 		DD10459B1F4772E3004B20CE /* GLTFErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFErrors.swift; sourceTree = "<group>"; };
@@ -365,6 +366,7 @@
 				DDE6FD3E1F466D5000CB11D6 /* schema */,
 				DDE6FD811F466F9B00CB11D6 /* GLTFUnarchiver.swift */,
 				DD071E031F55ED1200F00567 /* GLTFShaderModifierSurface.shader */,
+				9DA74DB31FD5F54F007F0749 /* GLTFShaderModifierSurface_alphaModeBlend.shader */,
 				DD99E8071F55FBA8003D380A /* GLTFShaderModifierSurface_doubleSidedWorkaround.shader */,
 				DD99E80A1F560099003D380A /* GLTFShaderModifierFragment_alphaCutoff.shader */,
 				DDE6FDD91F46785100CB11D6 /* GLTFSceneSource.swift */,
@@ -613,6 +615,7 @@
 				DD9BFA871F9C211A00542D5B /* GLTFShaderModifierSurface_doubleSidedWorkaround.shader in Resources */,
 				DD9BFA851F9C20FB00542D5B /* GLTFShaderModifierSurface_pbrSpecularGlossiness.shader in Resources */,
 				DD8804E51FA7AC92009B4584 /* GLTFShaderModifierSurface_pbrSpecularGlossiness_texture_doubleSidedWorkaround.shader in Resources */,
+				9DA74DB51FD5F56C007F0749 /* GLTFShaderModifierSurface_alphaModeBlend.shader in Resources */,
 				DD9BFA881F9C211E00542D5B /* GLTFShaderModifierFragment_alphaCutoff.shader in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,6 +624,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA74DB41FD5F54F007F0749 /* GLTFShaderModifierSurface_alphaModeBlend.shader in Resources */,
 				DD9BFA821F9C20E900542D5B /* GLTFShaderModifierSurface.shader in Resources */,
 				DD9BFA831F9C20ED00542D5B /* GLTFShaderModifierFragment_alphaCutoff.shader in Resources */,
 				DD9BFA891F9C220F00542D5B /* GLTFShaderModifierSurface_doubleSidedWorkaround.shader in Resources */,
